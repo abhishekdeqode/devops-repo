@@ -1,9 +1,11 @@
-# Dockerizing an Flask API using Docker Compose
-##Overview
+# Dockerizing an Flask API using Docker Compose.
+
+## Overview
 This project was created to demonstrate the implementation of flask API using Docker compose.
 The API uses a database (books.db) to interact with. User can filter the retrieved data in various ways using the particular URIs.
 The response to the user query is displayed in the JSON format.
-##Usage
+
+## Usage
 To retrieve all the data from database
 ```
 /api/v1/resources/books/all
